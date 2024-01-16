@@ -1,0 +1,55 @@
+.project-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 40%;
+}
+
+.project-title img {
+    height: 13rem;
+}
+
+.project-title p {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.project-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+}
+
+.project-skills, .project-date {
+    width: 100%;
+}
+
+.project-button {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.project-description ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+.project-description li {
+    line-height: 1.5rem;
+}

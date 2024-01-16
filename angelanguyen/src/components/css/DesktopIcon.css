@@ -1,0 +1,14 @@
+.desktop-icon {
+    font-family: 'W95FA', sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.desktop-icon mark {
+    background: none;
+}

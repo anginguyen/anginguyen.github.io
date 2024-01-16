@@ -1,0 +1,27 @@
+.windowbox-header {
+    background-color: #000082;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 10px;
+    overflow: auto;
+}
+
+.header-text {
+    color: #DBDBDB;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.header-button {
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding-right: 1px;
+    margin: 0 0.15rem;
+}
+
+.header-button img {
+    width: 0.85rem;
+    padding: 0.15rem;
+}

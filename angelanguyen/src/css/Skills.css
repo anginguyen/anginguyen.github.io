@@ -1,0 +1,36 @@
+.skills {
+    width: 50%;
+}
+
+.skills-dropdown {
+    all: unset;
+    font-size: 1.25rem;
+    background-color: #F7F7F7;
+    border: 0.15rem solid;
+    border-top-color: #828282;
+    border-left-color: #828282;
+    border-right-color: #DBDBDB;
+    border-bottom-color: #DBDBDB;
+    box-shadow: inset 2px 2px 0 #272727;
+    width: 100%;
+    padding: 0.35rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills-icons {
+    background-color: #F7F7F7;
+    border: 0.15rem solid;
+    border-top-color: #828282;
+    border-left-color: #828282;
+    border-right-color: #DBDBDB;
+    border-bottom-color: #DBDBDB;
+    box-shadow: inset 2px 2px 0 #272727;
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.skill-icon img {
+    height: 3.5rem;
+    width: auto;
+}

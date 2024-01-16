@@ -1,0 +1,57 @@
+.experience-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.experience-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 40%;
+}
+
+.experience-title img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.experience-title p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.experience-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 60%;
+}
+
+.experience-date-location {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.experience-location {
+    width: 40%;
+}
+
+.experience-date {
+    width: 60%;
+} 
+
+.experience-description ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+.experience-description li {
+    line-height: 1.5rem;
+}

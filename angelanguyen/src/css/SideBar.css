@@ -1,0 +1,21 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    margin: 2rem 0 0 2rem;
+    gap: 2.25rem;
+}
+
+.sidebar-item img {
+    height: 3rem;
+    width: auto;
+}
+
+.sidebar-item mark {
+    color: #DBDBDB;
+}
+
+.sidebar-active mark {
+    background-color: #000082 !important;
+}

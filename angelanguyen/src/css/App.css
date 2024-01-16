@@ -1,0 +1,62 @@
+@font-face {
+  font-family: W95FA;
+  src: url('../fonts/W95FA.otf');
+}
+
+@font-face {
+  font-family: PixelTimesNewRoman;
+  src: url('../fonts/pixelated-times-new-roman.ttf');
+}
+
+* {
+  font-family: 'W95FA', sans-serif;
+  cursor: url('../img/cursor.png') 100 100, pointer;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #007E7D;
+}
+
+p, a, li {
+  font-family: 'W95FA', sans-serif;
+  color: #272727;
+  margin-bottom: 0;
+}
+
+button {
+  all: unset;
+}
+
+a:hover, a:hover > *, button:hover, button:hover > *{
+  cursor: url('../img/cursor-click.png'), auto;
+}
+
+.box-shadow {
+  background-color: #C3C3C3;
+  box-shadow: 0.15rem 0.15rem 0 #272727, inset 0.15rem 0.15rem 0 #F7F7F7, inset -0.15rem -0.15rem 0 #828282;
+}
+
+.button-shadow {
+  background-color: #C3C3C3;
+  border: 0.1rem solid;
+  border-color: #F7F7F7 #272727 #272727 #F7F7F7;
+  box-shadow: inset -0.1rem -0.1rem 0 #828282;
+}
+
+.button-shadow:active {
+  border-color: #272727 #F7F7F7 #F7F7F7 #272727;
+  box-shadow: inset 0.1rem 0.1rem 0 #828282;
+}
+
+.window-container {
+  width: 70%;
+  margin: 40px auto;
+  padding: 5px;
+}
+
+.window-content {
+  padding: 2rem;
+}
+

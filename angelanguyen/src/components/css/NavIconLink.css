@@ -1,0 +1,9 @@
+.nav-icon-link {
+    width: 100%;
+    display: flex;
+    justify-content: 'center';
+}
+
+.nav-icon-link-icon {
+    width: 1.65rem;
+}

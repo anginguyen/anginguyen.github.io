@@ -1,0 +1,9 @@
+.information-box legend {
+    color: #272727;
+    margin-left: 0.5rem;
+    padding: 0 0.25rem;
+}
+
+.information-box-content {
+    padding: 1rem;
+}

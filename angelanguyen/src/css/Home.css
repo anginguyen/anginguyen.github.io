@@ -1,0 +1,51 @@
+.title {
+    margin-bottom: 2rem;
+}
+
+.title p {
+    font-family: 'PixelTimesNewRoman', serif;
+}
+
+.name-intro {
+    font-size: 3rem;
+}
+
+.name {
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.home-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.content-box {
+    background-color: #FFFFDF;
+    padding: 2rem;
+    border: 0.15rem solid #F7F7F7;
+    border-top-color: #828282;
+    border-left-color: #828282;
+    height: 40vh;
+}
+
+.content-box p {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.home-icon img {
+    height: 3.5rem;
+    width: auto;
+}
+
+.home-icon mark {
+    color: #272727;
+}
