@@ -56,23 +56,33 @@
 }
 
 @media (max-width: 767px) {
-    /* .project-top {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project-title, .project-information {
-        width: 100%;
-    } */
-
-    .project-title {
-        gap: 0.5rem;
-    }
     .project-title p {
         font-size: 1.15rem;
     }
 
     .project-title img {
         height: 10rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-title {
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .project-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-information {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .project-button {
+        font-size: 1rem;
+        width: 50%;
     }
 }
