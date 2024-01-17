@@ -53,6 +53,7 @@ const experiences = [
         key: "usc",
         role: "Undergraduate Teaching Assistant",
         company: "USC Viterbi School of Engineering",
+        company_shortened: "USC",
         icon: require('../img/usc-icon.png'),
         location: "Los Angeles, CA",
         date: "Jan 2022 – May 2022",
@@ -88,7 +89,7 @@ function Experiences() {
                 <Tabs>
                     <TabList>
                         {experiences.map((experience) =>
-                            <Tab>{experience.company}</Tab>
+                            experience.company_shortened ? <Tab>{experience.company_shortened}</Tab> : <Tab>{experience.company}</Tab>
                         )}
                     </TabList>
                     
@@ -101,7 +102,7 @@ function Experiences() {
                     </div>
                 </Tabs>
 
-                <div className="experience-nav-buttons">
+                <div className="nav-buttons">
                     <NavButton type="back" />
                     <NavButton type="next" to='/projects' />
                 </div>

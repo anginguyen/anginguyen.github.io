@@ -32,4 +32,24 @@
 .nav-tab-items {
     display: flex;
     align-items: center;
+    width: 100%;
+}
+
+.nav-bar-collapsed {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    /* .nav-bar-collapsed {
+        display: initial;
+    } */
+
+    .nav-bar-expanded {
+        display: none;
+    }
+
+    /* .nav-start-button {
+        width: 99.3%;
+        box-sizing: border-box;
+    } */
 }

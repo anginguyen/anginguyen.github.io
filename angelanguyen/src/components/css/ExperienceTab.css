@@ -55,3 +55,17 @@
 .experience-description li {
     line-height: 1.5rem;
 }
+
+@media (max-width: 767px) {
+    .experience-information {
+        justify-content: space-around;
+    }
+    .experience-date-location {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .experience-date, .experience-location {
+        width: 100%;
+    }
+}

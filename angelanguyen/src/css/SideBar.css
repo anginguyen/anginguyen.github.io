@@ -19,3 +19,9 @@
 .sidebar-active mark {
     background-color: #000082 !important;
 }
+
+@media (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+}

@@ -56,10 +56,3 @@
 .react-tabs__tab:focus:after {
     background: none;
 }
-
-.experience-nav-buttons {
-    display: flex;
-    justify-content: right;
-    gap: 1rem;
-    margin-top: 1rem;
-}

@@ -67,8 +67,9 @@ function Projects() {
                     </div>
                 </Tabs>
 
-                <div className="experience-nav-buttons">
+                <div className="nav-buttons">
                     <NavButton type="back" />
+                    <NavButton type="next" to='/skills' />
                 </div>
             </div>
         </div>

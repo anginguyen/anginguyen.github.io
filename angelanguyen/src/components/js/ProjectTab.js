@@ -7,18 +7,18 @@ function ProjectTab(props) {
     return (
         <>
             <div className="project-top">
+                <div className="project-title">
+                    <img src={props.project.src} alt={alt} />
+                    <p>{props.project.name}</p>
+                </div>
+                
                 <div className="project-information">
                     <InformationBox title="Skills" content={props.project.skills} class="project-skills" />
                     <InformationBox title="Date" content={props.project.date} class="project-date" />
 
                     {(props.project.link) &&
-                        <a href={props.project.link.url} className="button-shadow project-button" target="_blank">{props.project.link.label}</a>
+                        <a href={props.project.link.url} className="button-shadow project-button" target="_blank" rel="noreferrer">{props.project.link.label}</a>
                     }
-                </div>
-
-                <div className="project-title">
-                    <img src={props.project.src} alt={alt} />
-                    <p>{props.project.name}</p>
                 </div>
             </div>
 

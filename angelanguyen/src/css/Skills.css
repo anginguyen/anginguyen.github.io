@@ -2,11 +2,15 @@
     width: 50%;
 }
 
+.skills-content {
+    padding: 2rem 2rem 1rem;
+}
+
 .skills-dropdown {
     all: unset;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     background-color: #F7F7F7;
-    border: 0.15rem solid;
+    border: 0.1rem solid;
     border-top-color: #828282;
     border-left-color: #828282;
     border-right-color: #DBDBDB;
@@ -19,7 +23,7 @@
 
 .skills-icons {
     background-color: #F7F7F7;
-    border: 0.15rem solid;
+    border: 0.1rem solid;
     border-top-color: #828282;
     border-left-color: #828282;
     border-right-color: #DBDBDB;

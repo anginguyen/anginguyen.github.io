@@ -57,6 +57,21 @@ a:hover, a:hover > *, button:hover, button:hover > *{
 }
 
 .window-content {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
+.nav-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  gap: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .window-container {
+    width: 90% !important; 
+    margin: 10px auto !important;
+  }
+}

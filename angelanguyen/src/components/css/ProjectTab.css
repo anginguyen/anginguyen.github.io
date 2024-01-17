@@ -53,3 +53,14 @@
 .project-description li {
     line-height: 1.5rem;
 }
+
+@media (max-width: 767px) {
+    .project-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-title, .project-information {
+        width: 100%;
+    }
+}
