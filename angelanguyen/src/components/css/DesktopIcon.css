@@ -12,3 +12,9 @@
 .desktop-icon mark {
     background: none;
 }
+
+@media (max-width: 600px) {
+    .desktop-icon {
+        font-size: 1rem;
+    }
+}

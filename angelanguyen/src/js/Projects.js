@@ -69,7 +69,7 @@ function Projects() {
 
                 <div className="nav-buttons">
                     <NavButton type="back" />
-                    <NavButton type="next" to='/skills' />
+                    {/* <NavButton type="next" to='/skills' /> */}
                 </div>
             </div>
         </div>

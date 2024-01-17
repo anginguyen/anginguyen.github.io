@@ -56,3 +56,13 @@
 .react-tabs__tab:focus:after {
     background: none;
 }
+
+@media (max-width: 600px) {
+    .react-tabs__tab-list {
+        font-size: 0.85rem;
+    }
+
+    .tab-panels {
+        font-size: 1rem;
+    }
+}

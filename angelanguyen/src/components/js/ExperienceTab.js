@@ -7,8 +7,10 @@ function ExperienceTab(props) {
             <div className="experience-content">
                 <div className="experience-title">
                     <img src={props.experience.icon} alt={props.experience.company + " icon"} />
-                    <p style={{fontWeight: "800"}}>{props.experience.role}</p>
-                    <p>{props.experience.company}</p>
+                    <div className="experience-name">
+                        <p style={{fontWeight: "800"}}>{props.experience.role}</p>
+                        <p>{props.experience.company}</p>
+                    </div>
                 </div>
 
                 <div className="experience-information">

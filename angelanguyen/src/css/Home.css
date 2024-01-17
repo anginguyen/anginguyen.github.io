@@ -32,7 +32,7 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
 }
 
 .home-icon img {
@@ -48,5 +48,44 @@
 @media (max-width: 1000px) {
     .non-laptop-note {
         display: initial; 
+    }
+}
+
+@media (max-width: 767px) {
+    .home {
+        padding: 1rem;
+    }
+
+    .home-content-box {
+        padding: 1rem;
+    }
+
+    .links {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .name-intro {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .home-content-box p { 
+        font-size: 1rem;
+    }
+
+    .links {
+        gap: 2rem;
+    }
+
+    .home-icon img {
+        height: 3rem;
+        width: auto;
     }
 }

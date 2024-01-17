@@ -71,7 +71,7 @@ a:hover, a:hover > *, button:hover, button:hover > *{
 
 @media (max-width: 1000px) {
   .window-container {
-    width: 90% !important; 
+    width: 95% !important; 
     margin: 10px auto !important;
   }
 }
