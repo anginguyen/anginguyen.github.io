@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import WindowHeader from "../components/js/WindowHeader";
+import { useState, useEffect, useRef } from 'react';
+import WindowBox from '../components/js/WindowBox';
 import DesktopIcon from "../components/js/DesktopIcon";
 import NavButton from '../components/js/NavButton';
 import "../css/Skills.css";
@@ -20,6 +20,22 @@ const skills = [
     {
         name: "JavaScript",
         icon: require('../img/javascript-icon.png')
+    },
+    { 
+        name: "PHP",
+        icon: require('../img/php-icon.png')
+    },
+    {
+        name: "CSS",
+        icon: require('../img/css-icon.png')
+    },
+    {
+        name: "React",
+        icon: require('../img/react-icon.png')
+    },
+    {
+        name: "Unity",
+        icon: require('../img/unity-icon.png')
     }
 ]
 
@@ -33,17 +49,16 @@ const options = [
         value: "technologies"
     }
 ]
-
+                                                                                                                            
 function Skills() {
     const [value, setValue] = useState("languages");
+
     const handleChange = (e) => {
         setValue(e.target.value);
     }
 
     return (
-        <div className="window-container box-shadow skills">
-            <WindowHeader header="Skills" />
-
+        <WindowBox name="Skills" width={0.50} classes="skills" content={
             <div className="window-content skills-content">
                 <select value={value} onChange={handleChange} className="skills-dropdown">
                     {options.map((option) =>
@@ -62,7 +77,7 @@ function Skills() {
                     <NavButton type="back" />
                 </div>
             </div>
-        </div>
+        } />
     )
 }
 

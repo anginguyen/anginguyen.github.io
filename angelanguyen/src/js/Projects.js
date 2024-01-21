@@ -1,5 +1,6 @@
 import { TabList, TabPanel, Tabs, Tab } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
+import WindowBox from "../components/js/WindowBox";
 import WindowHeader from '../components/js/WindowHeader';
 import ProjectTab from '../components/js/ProjectTab';
 import NavButton from "../components/js/NavButton";
@@ -47,9 +48,7 @@ const projects = [
 
 function Projects() {
     return (
-        <div className="window-container box-shadow projects">
-            <WindowHeader header="Projects" />
-
+        <WindowBox name="Projects" width={0.60} classes="projects" content={
             <div className="window-content project-tabs-content">
                 <Tabs>
                     <TabList>
@@ -72,7 +71,7 @@ function Projects() {
                     {/* <NavButton type="next" to='/skills' /> */}
                 </div>
             </div>
-        </div>
+        }/>
     )
 }
 

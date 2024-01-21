@@ -11,10 +11,7 @@
     font-size: 1.15rem;
     background-color: #F7F7F7;
     border: 0.1rem solid;
-    border-top-color: #828282;
-    border-left-color: #828282;
-    border-right-color: #DBDBDB;
-    border-bottom-color: #DBDBDB;
+    border-color: #828282 #DBDBDB #DBDBDB #828282;
     box-shadow: inset 2px 2px 0 #272727;
     width: 100%;
     padding: 0.35rem;
@@ -24,12 +21,10 @@
 .skills-icons {
     background-color: #F7F7F7;
     border: 0.1rem solid;
-    border-top-color: #828282;
-    border-left-color: #828282;
-    border-right-color: #DBDBDB;
-    border-bottom-color: #DBDBDB;
+    border-color: #828282 #DBDBDB #DBDBDB #828282;
     box-shadow: inset 2px 2px 0 #272727;
     display: flex;
+    flex-wrap: wrap;
     gap: 4rem;
     padding: 2rem;
 }

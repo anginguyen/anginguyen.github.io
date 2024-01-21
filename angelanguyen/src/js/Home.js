@@ -1,4 +1,4 @@
-import WindowHeader from '../components/js/WindowHeader';
+import WindowBox from '../components/js/WindowBox';
 import DesktopIcon from '../components/js/DesktopIcon';
 import NavButton from '../components/js/NavButton';
 import '../css/Home.css';
@@ -9,10 +9,8 @@ import document_icon from '../img/document-icon.png';
 
 function Home() {
     return (
-        <div className='window-container box-shadow'>
-            <WindowHeader header="Home" />
-
-            <div className='window-content home'>
+        <WindowBox name="Home" width={0.70} classes="home" content={
+            <div className='window-content home-content'>
                 <div className="title">
                     <div className="title-left">
                         <p className="name-intro">Hello! I'm</p>
@@ -40,7 +38,7 @@ function Home() {
                     <NavButton to="/experiences" type="next" />
                 </div>
             </div>
-        </div>
+        } />
     )
 }
 

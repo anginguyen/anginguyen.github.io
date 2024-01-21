@@ -1,4 +1,8 @@
 .home {
+    width: 70%;
+}
+
+.home-content {
     padding: 2rem 2rem 1rem;
 }
 

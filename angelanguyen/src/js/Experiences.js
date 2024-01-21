@@ -1,7 +1,6 @@
 import { TabList, TabPanel, Tabs, Tab } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
-
-import WindowHeader from "../components/js/WindowHeader";
+import WindowBox from "../components/js/WindowBox";
 import ExperienceTab from "../components/js/ExperienceTab";
 import NavButton from "../components/js/NavButton";
 import '../css/Experiences.css';
@@ -82,9 +81,7 @@ const experiences = [
 
 function Experiences() {
     return (
-        <div className="window-container box-shadow experiences">
-            <WindowHeader header="Experiences" />
-            
+        <WindowBox name="Experiences" width={0.50} classes="experiences" content={
             <div className="window-content experience-tabs-content">
                 <Tabs>
                     <TabList>
@@ -107,7 +104,7 @@ function Experiences() {
                     <NavButton type="next" to='/projects' />
                 </div>
             </div>
-        </div>
+        }/>
     )
 }
 
