@@ -1,24 +1,24 @@
 import InformationBox from "./InformationBox";
 import '../css/ExperienceTab.css';
 
-function ExperienceTab(props) {
+function ExperienceTab({ experience }) {
     return (
         <>
             <div className="experience-content">
                 <div className="experience-title">
-                    <img src={props.experience.icon} alt={props.experience.company + " icon"} />
+                    <img src={experience.icon} alt={experience.company + " icon"} />
                     <div className="experience-name">
-                        <p style={{fontWeight: "800"}}>{props.experience.role}</p>
-                        <p>{props.experience.company}</p>
+                        <p style={{fontWeight: "800"}}>{experience.role}</p>
+                        <p>{experience.company}</p>
                     </div>
                 </div>
 
                 <div className="experience-information">
                     <div className="experience-date-location">
-                        <InformationBox class="experience-location" title="Location" content={props.experience.location} />
-                        <InformationBox class="experience-date" title="Date" content={props.experience.date} />
+                        <InformationBox classes="experience-location" title="Location" content={experience.location} />
+                        <InformationBox classes="experience-date" title="Date" content={experience.date} />
                     </div>
-                    <InformationBox title="Skills" class="experience-skills" content={props.experience.skills} />
+                    <InformationBox title="Skills" classes="experience-skills" content={experience.skills} />
                 </div>
             </div>
 
@@ -26,7 +26,7 @@ function ExperienceTab(props) {
                 <legend>Description</legend>
                 <div className="information-box-content">
                     <ul>
-                        {(props.experience.description).map((desc) => 
+                        {(experience.description).map((desc) => 
                             <li>{desc}</li>
                         )}
                     </ul>

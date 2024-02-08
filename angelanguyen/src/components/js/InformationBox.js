@@ -1,13 +1,13 @@
 import '../css/InformationBox.css';
 
-function InformationBox(props) {
-    const classes = "information-box " + props.class;
+function InformationBox({ title, content, classes }) {
+    classes = "information-box " + classes;
 
     return (
         <fieldset className={classes}>
-            <legend>{props.title}</legend>
+            <legend>{title}</legend>
             <div className="information-box-content">
-                <p>{props.content}</p>
+                <p>{content}</p>
             </div>
         </fieldset>
     )

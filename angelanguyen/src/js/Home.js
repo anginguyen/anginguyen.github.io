@@ -24,7 +24,7 @@ function Home() {
                     <p>This past summer, I returned to Apple as a SWE intern under the Siri Communications team. I interned under the Global Siri team the previous summer and at Amazon in Summer 2021. </p>
                     <span className="non-laptop-note">
                         <br />
-                        <p>For the best experience, try accessing this page on your computer!</p>
+                        <p>For the best experience, access this page on your computer!</p>
                     </span>
 
                     <div className="links">

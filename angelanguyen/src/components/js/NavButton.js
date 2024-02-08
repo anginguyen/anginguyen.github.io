@@ -1,13 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import '../css/NavButton.css';
 
-function NavButton(props) {
+function NavButton({ type, to }) {
     const navigate = useNavigate();
 
-    switch (props.type) {
+    switch (type) {
         case 'next':
             return (
-                <button className="next-button button-shadow" onClick={(() => navigate(props.to))}>Next</button>
+                <button className="next-button button-shadow" onClick={(() => navigate(to))}>Next</button>
             )
         
         case 'back':

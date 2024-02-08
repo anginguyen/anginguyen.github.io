@@ -1,23 +1,23 @@
 import InformationBox from "./InformationBox";
 import '../css/ProjectTab.css';
 
-function ProjectTab(props) {
-    const alt = props.project.name + " image";
+function ProjectTab({ project }) {
+    const alt = project.name + " image";
 
     return (
         <>
             <div className="project-top">
                 <div className="project-title">
-                    <img src={props.project.src} alt={alt} />
-                    <p>{props.project.name}</p>
+                    <img src={project.src} alt={alt} />
+                    <p>{project.name}</p>
                 </div>
                 
                 <div className="project-information">
-                    <InformationBox title="Skills" content={props.project.skills} class="project-skills" />
-                    <InformationBox title="Date" content={props.project.date} class="project-date" />
+                    <InformationBox title="Skills" content={project.skills} classes="project-skills" />
+                    <InformationBox title="Date" content={project.date} classes="project-date" />
 
-                    {(props.project.link) &&
-                        <a href={props.project.link.url} className="button-shadow project-button" target="_blank" rel="noreferrer">{props.project.link.label}</a>
+                    {project.link &&
+                        <a href={project.link.url} className="button-shadow project-button" target="_blank" rel="noreferrer">{project.link.label}</a>
                     }
                 </div>
             </div>
@@ -26,7 +26,7 @@ function ProjectTab(props) {
                 <legend>Description</legend>
                 <div className="information-box-content">
                     <ul>
-                        {(props.project.description).map((desc) => 
+                        {(project.description).map((desc) => 
                             <li>{desc}</li>
                         )}
                     </ul>

@@ -31,6 +31,22 @@
 
 @media (max-width: 767px) {
     .nav-tab-item {
-        width: 100%;
+        border: none;
+        box-shadow: none;
+        width: 99.3%;
+        box-sizing: border-box;
+        padding: 5px 15px;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .nav-tab-icon {
+        height: 2rem;
+    }
+
+    .nav-active {
+        font-weight: 400;
+        color: #F7F7F7;
+        background: #000082;
     }
 }

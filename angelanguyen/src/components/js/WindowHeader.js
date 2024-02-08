@@ -3,10 +3,10 @@ import x_icon from '../../img/x-icon.png';
 import maximize_icon from '../../img/maximize-icon.png';
 import hide_icon from '../../img/hide-icon.png';
 
-function WindowHeader(props) {
+function WindowHeader({ header }) {
     return (
         <div className='windowbox-header'>
-            <p className='header-text'>{props.header}</p>
+            <p className='header-text'>{header}</p>
 
             <div className='header-buttons'>
                 <button className='header-button button-shadow'><img src={hide_icon} alt="Hide icon" /></button>

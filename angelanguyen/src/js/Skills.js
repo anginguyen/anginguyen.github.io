@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
 import WindowBox from '../components/js/WindowBox';
 import DesktopIcon from "../components/js/DesktopIcon";
 import NavButton from '../components/js/NavButton';

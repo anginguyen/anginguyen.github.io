@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Navbar } from "react-bootstrap";
 import '../css/NavBar.css';
 import NavTabItem from "../components/js/NavTabItem";
@@ -7,10 +8,12 @@ import linkedin_icon from '../img/linkedin-icon.png';
 import mail_icon from '../img/mail-icon.png';
 import document_icon from '../img/document-icon.png';
 
-function NavBar(props) {
+function NavBar({ routes }) {
+    const [isExpanded, setIsExpanded] = useState(false); 
+
     return (
         <>
-            <Navbar className='nav-bar nav-bar-expanded'>
+            <Navbar className='nav-bar nav-bar__full'>
                 <button className='nav-start-button button-shadow'>Start</button>
 
                 <div className="nav-links">
@@ -20,14 +23,28 @@ function NavBar(props) {
                 </div>
 
                 <div className="nav-tab-items">
-                    {(props.routes).map((route) => 
+                    {routes.map((route) => 
                         <NavTabItem name={route.name} to={route.path} icon={route.icon} />
                     )}
                 </div>
             </Navbar>
 
-            <Navbar className="nav-bar nav-bar-collapsed">
-                <button className='nav-start-button button-shadow'>Menu</button>
+            <Navbar className="nav-bar nav-bar__dropdown">
+                {
+                    isExpanded && 
+                    <div className="nav-items--expanded">
+                        {routes.map((route) => 
+                            <NavTabItem name={route.name} to={route.path} icon={route.icon} callback={() => setIsExpanded(!isExpanded)} />
+                        )}
+                    </div>
+                }
+
+                <button 
+                    className={isExpanded ? 'nav-start-button nav-start-button--active button-shadow' : 'nav-start-button button-shadow'}
+                    onClick={() => setIsExpanded(!isExpanded)}
+                >
+                    Menu
+                </button>
             </Navbar>
         </>
     )

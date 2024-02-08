@@ -1,7 +1,6 @@
 import { TabList, TabPanel, Tabs, Tab } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
 import WindowBox from "../components/js/WindowBox";
-import WindowHeader from '../components/js/WindowHeader';
 import ProjectTab from '../components/js/ProjectTab';
 import NavButton from "../components/js/NavButton";
 import '../css/Projects.css';
