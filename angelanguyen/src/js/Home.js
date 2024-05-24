@@ -19,7 +19,7 @@ function Home() {
                 </div>
 
                 <div className="home-content-box">
-                    <p>I am a senior studying computer science at the University of Southern California. I am passionate about full-stack and mobile app development, specifically in the development of inclusive and accessible technology! My interests include puzzle & board games (especially word games), bouldering, pickleball, and hiking :D</p>
+                    <p>I recently graduated from USC with a Bachelor of Science in Computer Science in May. My interests include puzzle games (especially the NYT games and Echo Chess), board games, bouldering, tennis, and hiking :D</p>
                     <br />
                     <p>This past summer, I returned to Apple as a SWE intern under the Siri Communications team. I interned under the Global Siri team the previous summer and at Amazon in Summer 2021. </p>
                     <span className="non-laptop-note">

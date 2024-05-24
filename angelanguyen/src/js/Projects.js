@@ -7,6 +7,20 @@ import '../css/Projects.css';
 
 const projects = [
     {
+        name: "Axle",
+        src: require('../img/axle.png'),
+        skills: "React.js, PostgreSQL, JavaScript, HTML, CSS",
+        date: "Apr 2024",
+        link: {
+            label: "Website",
+            url: "https://axlemarket.vercel.app"
+        },
+        description: [
+            "Co-founded Axle, an e-commerce site for car parts, with a designer and product manager",
+            "Developed end-to-end ordering process, including the search, shopping cart, checkout, and order history"
+        ]
+    },
+    {
         name: "Thanatos",
         src: require('../img/thanatos.png'),
         skills: "C#, Unity3D",
@@ -31,6 +45,7 @@ const projects = [
         ]
     },
     {
+        label: "TCAB",
         name: "Trojan Check Automation Bot",
         src: require('../img/trojancheck.png'),
         skills: "Python, Selenium, TwilioAPI, PythonAnywhere",
@@ -52,7 +67,7 @@ function Projects() {
                 <Tabs>
                     <TabList>
                         {projects.map((project) => 
-                            <Tab>{project.name}</Tab>
+                            <Tab>{project.label ? project.label : project.name}</Tab>
                         )}
                     </TabList>
                     
