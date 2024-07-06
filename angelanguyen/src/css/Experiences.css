@@ -57,6 +57,19 @@
     background: none;
 }
 
+@media (max-width: 1000px) {
+    .tab-panels {
+        font-size: 1rem;
+        padding: 1rem;
+        max-height: 87%;
+        overflow: scroll;
+    }
+    
+    .react-tabs {
+        height: 82%;
+    }
+}
+
 @media (max-width: 600px) {
     .experience-tabs-content {
         margin: 0.25rem;
@@ -64,10 +77,5 @@
     
     .react-tabs__tab-list {
         font-size: 0.85rem;
-    }
-
-    .tab-panels {
-        font-size: 1rem;
-        padding: 1rem;
     }
 }

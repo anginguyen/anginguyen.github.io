@@ -53,6 +53,11 @@
     .non-laptop-note {
         display: initial; 
     }
+    .home-content-box {
+        max-height: 60%;
+        overflow: scroll;
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 767px) {

@@ -58,6 +58,9 @@ a:hover, a:hover > *, button:hover, button:hover > *{
 }
 
 @media (max-width: 1000px) {
+  body {
+    overflow: hidden;
+  }
   .window-container {
     width: 95% !important; 
     margin: 10px auto 75px !important;
