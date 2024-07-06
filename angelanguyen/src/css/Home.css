@@ -53,8 +53,13 @@
     .non-laptop-note {
         display: initial; 
     }
+
+    .home-content {
+        max-height: 70vh;
+    }
+
     .home-content-box {
-        max-height: 60%;
+        height: 90%;
         overflow: scroll;
         padding: 1rem;
     }
@@ -83,6 +88,10 @@
     .name {
         font-size: 4rem;
         text-align: center;
+    }
+
+    .home-content {
+        padding: 0.5rem;
     }
 
     .home-content-box p { 

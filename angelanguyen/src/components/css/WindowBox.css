@@ -11,10 +11,5 @@
 @media (max-width: 1000px) {
     .window-container {
         transform: translate(0, 0) !important;
-        height: 79vh;
-    }
-
-    .window-content {
-        height: 100%;
     }
 }
