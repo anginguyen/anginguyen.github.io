@@ -58,14 +58,10 @@
 }
 
 @media (max-width: 1000px) {
-    .experience-tabs-content {
-        max-height: 80vh; 
-    }
-
     .tab-panels {
         font-size: 1rem;
         padding: 1rem;
-        max-height: 55vh;
+        max-height: 56vh;
         overflow: scroll;
     }
 }
