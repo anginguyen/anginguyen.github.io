@@ -19,9 +19,9 @@ function Home() {
                 </div>
 
                 <div className="home-content-box">
-                    <p>I recently graduated from USC with a Bachelor of Science in Computer Science in May. My interests include puzzle games (especially the NYT games and Echo Chess), board games, bouldering, tennis, and hiking :D</p>
+                    <p>I am currently a software engineer at Apple working on the Siri ChatGPT integration and Siri Health. I graduated from USC with a Bachelor of Science in Computer Science in May 2024.</p>
                     <br />
-                    <p>This past summer, I returned to Apple as a SWE intern under the Siri Communications team. I interned under the Global Siri team the previous summer and at Amazon in Summer 2021. </p>
+                    <p>My interests and hobbies include puzzle games (especially the NYT games and Echo Chess), board games, volleyball, tennis, and hiking :D</p>
                     <span className="non-laptop-note">
                         <br />
                         <p>For the best experience, access this page on your computer!</p>
