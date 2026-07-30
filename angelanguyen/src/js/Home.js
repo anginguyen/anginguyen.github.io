@@ -29,7 +29,7 @@ function Home() {
 
                     <div className="links">
                         <DesktopIcon name="Resume" to="https://drive.google.com/file/d/1fe-SGPxBA6mPS5T-c2JtVKzVrKg05I0c/view?usp=sharing" icon={document_icon} defaultClass="home-icon" type="link" />
-                        <DesktopIcon name="Email" to="mailto:anginguyen@yahoo.com" icon={mail_icon} defaultClass="home-icon" type="link"/>
+                        <DesktopIcon name="Email" to="mailto:angelanguyen423@gmail.com" icon={mail_icon} defaultClass="home-icon" type="link"/>
                         <DesktopIcon name="LinkedIn" to="https://linkedin.com/in/angelatramnguyen" icon={linkedin_icon} defaultClass="home-icon" type="link" />
                     </div>
                 </div>

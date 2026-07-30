@@ -7,7 +7,23 @@ import '../css/Experiences.css';
 
 const experiences = [
     {
-        key: "apple1",
+        key: "apple3",
+        role: "Software Engineer",
+        company: "Apple",
+        icon: require('../img/apple-icon.png'),
+        location: "Seattle, WA",
+        date: "Aug 2024 – Present",
+        skills: "Swift, SwiftUI",
+        description: [
+            "Lead development of sharing workflows for ChatGPT-generated content in Siri on iOS & MacOS using Swift and SwiftUI, enabling support for text, images, files, and LaTeX mathematical content",
+            "Develop responsive SwiftUI views following MVVM & MVC principles, reducing UI complexity and improving maintainability across feature development & future enhancements",
+            "Migrate the enablement process to support an updated agentic architecture",
+            "Implement and debug integration supporting Siri experiences across iOS, MacOS, HomePod, and Apple TV, improving end-to-end reliability for customer-facing interactions",
+            "Collaborate cross-functionally with other Siri teams and OpenAI to produce a consistent, quality experience for customers"
+        ]
+    },
+    {
+        key: "apple2",
         role: "Software Engineer Intern",
         company: "Apple",
         icon: require('../img/apple-icon.png'),
@@ -35,7 +51,7 @@ const experiences = [
         ]
     },
     {
-        key: "apple2",
+        key: "apple1",
         role: "Software Engineer Intern",
         company: "Apple",
         icon: require('../img/apple-icon.png'),
